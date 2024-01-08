@@ -1,0 +1,66 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background: linear-gradient(to left, #0050a5, #fffdfa);
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo-png{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    margin: 8px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #b4c1d3;
+}
+
+.hero{
+    background: url(Team-Leos.jpg);
+    object-fit: cover;
+    height: 520px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    overflow: hidden;
+}
+
+/* .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    /* backdrop-filter: blur(5px); */
+} */
+
+
+
