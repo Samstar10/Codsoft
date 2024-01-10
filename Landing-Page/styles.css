@@ -135,6 +135,10 @@ a:hover {
     align-items: center;
 }
 
+.about-us-text {
+    animation: fadeEffect 1.5s ease-in-out forwards;
+}
+
 .about-us ul{
     list-style-type: square;
     padding-left: 20px;
@@ -144,6 +148,10 @@ a:hover {
     height: 400px;
     background: linear-gradient(to top, #0050a5, #fffdfa);
     padding: 10px;
+}
+
+.scholarships-text {
+    animation: fadeEffect 1.5s ease-in-out forwards;
 }
 
 .contact{
