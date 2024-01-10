@@ -99,6 +99,9 @@ a:hover {
 .about-us{
     height: 400px;
     background: linear-gradient(to bottom, #0050a5, #fffdfa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-us img{
